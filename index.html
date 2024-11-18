@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Resource/icon/download.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <!-- <img src="Resource/icon/download.png" alt="icon" width="50" height="60"> -->
+        </div>
+        <div>
+            <h3>Weather Today</h3>
+        </div>
+        <div id="tug">
+            <!-- <img src="Resource/icon/download (1).png" alt="" width="20" height="20"> -->
+            <p>Light</p>
+            <div class="toggle-container">
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <p>Dark</p>
+            <!-- <img src="Resource/icon/download (2).png" alt="" width="20" height="20"> -->
+        </div>
+    </header>
+    <nav>
+        <input type="text" placeholder="Enter city name" spellcheck="false">
+        <button><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
+    </nav>
+    <div class="error-msg">
+        <p>Invalid City Name</p>
+    </div>
+    <main class="main">
+        <section class="sec1">
+            <img src="Resource/images/clouds.png" class="weather-icon">
+        </section>
+        <section class="sec2">
+            <div class="weather">
+                <h1 class="city">Kolkata</h1>
+                <h1 class="temp">22°c</h1>
+                <div class="details">
+                    <div class="col">
+                        <!-- <div>
+                            Pressure :
+                            <span class="pressure">21 hPa</span>
+                        </div> -->
+                        <div>
+                            Humidity :
+                            <span class="humidity">50%</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- <div>
+                            Timezone :
+                            <span class="timezone">23 UTC</span>
+                        </div> -->
+                        <div>
+                            Wind Speed :
+                            <span class="Wind"> 15km/h</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer class="footer">
+        SAYAN KUMAR DAS | © 2024 All rights reserved
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
