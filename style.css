@@ -259,4 +259,17 @@ footer{
     color: var(--header-text-dark);
 }
 
-
+@media (max-width: 480px) {
+    .details{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav button{
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+    }
+}
